@@ -9,6 +9,18 @@
     box-shadow: inset 0 -3px 10px rgba(0, 0, 0, 0.1);
 }
 
+#input-search {
+    width: 100%;
+}
+
+nav .material-icons {
+    font-size: 40px;
+}
+
+nav li {
+    padding-left: 50px;
+}
+
 .container-fluid {
     margin-top: 60px;
 }
