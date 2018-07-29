@@ -8,3 +8,52 @@
     transform-origin: bottom left;
     box-shadow: inset 0 -3px 10px rgba(0, 0, 0, 0.1);
 }
+
+.container-fluid {
+    margin-top: 60px;
+}
+
+.fw-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    clear: both;
+    color: #ccc;
+    text-align: right;
+    padding: 2em 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fw-footer .skew {
+    background: #363d46;
+    height: 70px;
+    transform: skew(0, -1.5deg);
+    transform-origin: top right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: inset 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fw-footer .skew-bg {
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #363d46;
+}
+
+.fw-footer .copyright {
+    position: relative;
+    /* text-align: right; */
+    padding: 1em 0;
+    max-width: 1140px;
+    margin: 0 auto;
+    /* line-height: 1.8em; */
+    /* z-index: 1; */
+}
