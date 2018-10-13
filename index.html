@@ -15,14 +15,22 @@
 <body>
 
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <!-- <a class="navbar-brand" href="#">Football manager</a> -->
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav col-md-2">
+    <div class="row col-md-8">
+      <div class="col-xs-2 col-md-2">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+          aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="col-xs-10 col-xs-10">
+        <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+      </div>
+    </div>
+
+    <div class="collapse navbar-collapse col-md-4" id="navbarsExampleDefault">
+      <ul class="navbar-nav">
         <li class="nav-item active">
           <a class="nav-link" href="#">
             <i class="material-icons">home</i>
@@ -49,8 +57,6 @@
           </div>
         </li>
       </ul>
-      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-light ml-md-2 mt-1 mt-md-0 col-md-2" type="submit">Search</button>
     </div>
   </nav>
 
